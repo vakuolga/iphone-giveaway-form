@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">Oz Gifts</div>
+    </header>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img src="iphone_left.png" alt="Left iPhone" class="left-phone" />
+          <img src="iphone_right.png" alt="Right iPhone" class="right-phone" />
+        </div>
+        <div class="form-container">
+          <h1>Stand to Win an iPhone 6s!</h1>
+          <p class="subtitle">Where can we send your iPhone 6s?</p>
+          <form id="main-form">
+            <div class="form-row">
+              <input
+                type="text"
+                id="address-no"
+                placeholder="Address No"
+                required
+              />
+              <input type="text" id="street" placeholder="Street" required />
+            </div>
+            <div class="form-row">
+              <input
+                type="text"
+                id="postcode"
+                placeholder="Postcode"
+                required
+              />
+              <input type="text" id="suburb" placeholder="Suburb" required />
+            </div>
+            <div class="form-row">
+              <input type="text" id="phone" placeholder="Phone" required />
+            </div>
+            <div class="form-row short-row">
+              <input type="text" id="day" placeholder="DD" required />
+              <input type="text" id="month" placeholder="MM" required />
+              <input type="text" id="year" placeholder="YYYY" required />
+            </div>
+            <p class="participants">participants must be 18+</p>
+            <div class="form-row short-row">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <span class="info"
+          >Planet49 Australia Pty Ltd guarantees that this competition is
+          carried out and that information is collected under the rules of the
+          Privacy Act (1988). The competition is a game of skill in which chance
+          plays no part in determining the winners. Participation is free of
+          charge. After entry into the competition draw, users are presented
+          with a questionnaire and promotional offers from third-party
+          advertisers. Completing the questionnaire is not a requirement for
+          entry into the competition, although users acknowledge and consent to
+          their email address and other contact information supplied being
+          provided to third-party advertisers, some of whom may be located
+          overseas, upon entry. We do receive marketing fees from organisations
+          placing offers in our questionnaires including financial institutions.
+          You should always read their terms and conditions and any product
+          disclosure statement. Planet49 Australia Pty Ltd and the
+          www.oz-gifts.com website is not affiliated with, sponsored by or
+          endorsed by any of the companies associated with the prizes.</span
+        >
+        <br />
+        <div class="links">
+          <a href="#" class="footer-link" data-modal="advertise-modal"
+            >Advertise</a
+          >
+          <span>|</span>
+          <a href="#" class="footer-link" data-modal="terms-modal"
+            >Terms and Conditions</a
+          >
+          <span>|</span>
+          <a href="#" class="footer-link" data-modal="privacy-modal"
+            >Privacy Policy</a
+          >
+        </div>
+      </footer>
+      <div id="advertise-modal" class="modal">
+        <div class="modal-content">
+          <button class="modal-close">&times;</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            facilisis.
+          </p>
+        </div>
+      </div>
+      <div id="terms-modal" class="modal">
+        <div class="modal-content">
+          <button class="modal-close">&times;</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            facilisis.
+          </p>
+        </div>
+      </div>
+      <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+          <button class="modal-close">&times;</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            facilisis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
